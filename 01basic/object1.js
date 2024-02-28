@@ -23,3 +23,4 @@ console.log({},obj1,obj2);
 const obj3={...obj1,...obj2}
 console.log(obj3);
 // { '1': 'a', '2': 'b', '3': 'c', '4': 'd' }
+// imp scope in node enviroment is deffrent from scope in chrome console 
