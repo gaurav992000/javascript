@@ -30,5 +30,25 @@ const books = [
     { title: 'Book Eight', genre: 'Science', publish: 2011, edition: 2016 },
     { title: 'Book Nine', genre: 'Non-Fiction', publish: 1981, edition: 1989 },
   ];
-  let bookss=books.filter((item)=>books.genre==='History')
-  console.log(bookss)
+//   const bookss=books.filter((item) =>item.genre==='History')
+//   console.log(bookss)
+//   const bookis=books.filter((item1)=> item1.publish>=2000)
+// console.log(bookis)
+
+// +++++++++Map function++++++++++
+// map function return all values whereas filter return true values 
+// const arr=[1,2,4,43,5]
+// const newarr=arr.map((item)=> item>4)
+// console.log(newarr)
+// o/p  [ false, false, false, true, true ]
+// const newarr=arr.map((item)=> item*4)
+// console.log(newarr)
+// o/p  [ 4, 8, 16, 172, 20 ]
+
+// chain method  
+// const arr=[1,2,4,43,5]
+// const newnums=arr
+//             .map((num)=> num*10)
+//             .map((num)=>num+1)
+//             .filter((num)=> num>=40)
+// console.log(newnums)
