@@ -12,12 +12,16 @@
     //  chai()
 
     // in above both cases this.username is print undefined
+
+
     // ARROW
     // const chai=(num1,num2) => {
     //     return num1+num2;
 
     // }
     // console.log(chai(3,5));
+
+    
     // implicit
     // const fun=(one,two) => (one+two)
     // if we want to return object

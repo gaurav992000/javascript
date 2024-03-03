@@ -52,3 +52,21 @@ const books = [
 //             .map((num)=>num+1)
 //             .filter((num)=> num>=40)
 // console.log(newnums)
+
+// +++++++++REDUCE+++++++++++++
+const arr=[1,2,4,5,56,6]
+// const mytotal=arr.reduce(function (acc,currval) {
+//   console.log(`acc:${acc} and curraval:${currval}`)
+//   return acc+currval
+// },0)
+// by arrow method
+const mytotal=arr.reduce((acc,curraval)=>acc+curraval,0)
+console.log(mytotal)
+
+const shopingcart=[{itemname:'js course',price:2999},
+{itemname:'mobile course',price:2999},
+{itemname:'data science',price:2999},
+
+]
+const cart=shopingcart.reduce((acc,item)=> (acc+item.price),0)
+console.log(cart);

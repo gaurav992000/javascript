@@ -27,14 +27,14 @@
 
 
 // we can not iterate for(const [key,value] of mymap) in a object
-// const myobject={
-//     game1:'fnc',
-//     game2:'fifa'
-// }
-// for(const keys in myobject){
-//     // console.log(keys)
+const myobject={
+    game1:'fnc',
+    game2:'fifa'
+}
+for(const keys in myobject){
+    console.log(keys)
 // console.log(`${keys} =>${myobject[keys]}`);
-// }
+}
 
 
 // const programming=['js','python','java','cpp']
@@ -44,7 +44,7 @@
 
 //++++++++++ FOR EACH LOOP ++++++++++++++
 // array.forEach(function(currentValue, index, arr), thisValue)
-const coding=['js','cs','php']
+// const coding=['js','cs','php']
 // coding.forEach(function (val){
 //     console.log(val);
 // }
@@ -66,25 +66,25 @@ const coding=['js','cs','php']
 // php 2 [ 'js', 'cs', 'php' ]
 
 // +++++object in array++++
-const mycoding=[
-    {
-        lname:'java',
-        lfilename:'js'
-    },
-    {
-        lname:'javascript',
-        lfilename:'java'
-    },
-    {
-        lname:'python',
-        lfilename:'py'
-    },
-]
+// const mycoding=[
+//     {
+//         lname:'java',
+//         lfilename:'js'
+//     },
+//     {
+//         lname:'javascript',
+//         lfilename:'java'
+//     },
+//     {
+//         lname:'python',
+//         lfilename:'py'
+//     },
+// ]
 // mycoding.forEach(function(item){
 //     console.log(item);
 //     // 
 // })
-mycoding.forEach((item)=>{
-    console.log(item.lfilename)
-    console.log(item)
-})
+// mycoding.forEach((item)=>{
+//     console.log(item.lfilename)
+//     console.log(item)
+// })
