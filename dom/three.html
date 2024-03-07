@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom bhai</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    
+</body>
+<script>
+    // creating a element
+
+    const div=document.createElement('div')
+    console.log(div);
+    div.className='main'
+    div.id='blackbox';
+
+    // ANOTHER METHOD FOR SETING ATTRIBUTE
+    div.setAttribute("title","generated title")
+    div.style.backgroundColor='green';
+    div.style.padding='12px'
+    //   giving text insdie the elment
+    // div.innerText='dom bhai';   this method overwrite the exsting txext in the div
+    div.innerText='code with js'
+
+    // alternet metod for this
+    const addtext=document.createTextNode("chai aur code")
+    div.appendChild(addtext)
+
+    // at this point div is created but it is not visible because it is in memory not in document body
+    document.body.appendChild(div) ;
+
+
+
+</script>
+</html>

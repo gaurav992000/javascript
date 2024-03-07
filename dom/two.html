@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    <div class="parent">
+        <!-- this is a comment -->
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday</div>
+    </div>
+    </body>
+<script>
+   const rk= document.querySelector('.parent')
+//    childeren element access
+
+    // console.log(rk);
+    // console.log(rk.children)
+    // console.log(rk.children[1].innerHTML);
+    
+// for (let index = 0; index < rk.children.length; index++) {
+//     const element = rk.children[index].innerHTML;
+//     // rk.length is wrong because it is does not give html element rk.children gives html element
+    
+//     console.log(element);
+    
+// }
+
+// accessing first and last child
+// console.log(rk);
+// console.log(rk.firstElementChild);
+// console.log(rk.lastElementChild);
+
+ const dayone=document.querySelector('.day');
+ 
+//  children to parent
+ console.log(dayone.parentElement);
+ console.log();
+
+//  access of parent node element in this case we have 11 node element it include "enter after the line as node element"
+console.log("nodes",rk.childNodes);
+
+</script>
+</html>
